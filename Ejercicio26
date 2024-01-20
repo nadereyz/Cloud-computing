@@ -1,0 +1,23 @@
+"""
+Crea un programa en Python que permita al usuario jugar un juego interactivo de suma. El programa debe seguir las siguientes reglas:
+
+1. Solicita al usuario que introduzca un número que servirá como límite para la suma.
+2. Utiliza un bucle **`while`** para permitir al usuario introducir números y sumarlos.
+3. Muestra la suma parcial después de cada entrada del usuario.
+4. Cuando la suma alcance o supere el límite introducido por el usuario, muestra un mensaje indicando que el límite ha sido alcanzado.
+5. Agradece al usuario por jugar.
+"""
+limite = int(input("Pon un numero limite para la suma: "))
+
+suma = 0
+
+while suma < limite:
+    
+    numero = int(input("Pon un numero: "))
+    suma += numero
+    print("Suma reciente: {}".format(suma))
+
+print("Ya pasaste el limite")
+print("Gracias por jugar :D")
+
+
