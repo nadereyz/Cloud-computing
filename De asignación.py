@@ -6,7 +6,7 @@ a = 5 #Asignamos un valor a una variable
 #Suma y asignacion
 b = 3
 b += a # b = b + a --> 8
-#hola
+#holaa
 #Resta y asignación
 c = 10
 c -= 2 # c = c - 2 --> 8
